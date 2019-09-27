@@ -65,42 +65,45 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <ToggleButton
-            android:id="@+id/toggleButton"
+            android:id="@+id/mensleaguebtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="mensLeagueClicked"
             android:text="@string/mens"
             android:textColor="@android:color/white"
             android:textOff="@string/mens"
             android:textOn="@string/mens"
             android:textSize="18sp"
-            app:fontFamily="@font/montserrat"/>
+            app:fontFamily="@font/montserrat" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/womensleguebtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="womensLeagueClicked"
             android:text="@string/womens"
             android:textColor="@android:color/white"
             android:textOff="@string/womens"
             android:textOn="@string/womens"
             android:textSize="18sp"
-            app:fontFamily="@font/montserrat"/>
+            app:fontFamily="@font/montserrat" />
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/coedleguebtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="coedLeagueClicked"
             android:text="@string/co_ed"
             android:textColor="@android:color/white"
             android:textOff="@string/co_ed"
             android:textOn="@string/co_ed"
             android:textSize="18sp"
-            app:fontFamily="@font/montserrat"/>
+            app:fontFamily="@font/montserrat" />
     </LinearLayout>
 
     <Button
